@@ -12,3 +12,5 @@ assertArraysEqual(middle([1, 2]), []);
 assertArraysEqual(middle([1, 2]), [1]);
 
 
+
+
