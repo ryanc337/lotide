@@ -10,6 +10,10 @@ const letterPositions = require('./letterPositions');
 const map = require('./map');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
+const assertEqual = require('./assertEqual');
+const assertObjectsEqual = require('./assertObjectsEqual');
+const countOnly = require('./countOnly');
+
 
 module.exports = {
   head:   head,
@@ -23,5 +27,8 @@ module.exports = {
   letterPositions: letterPositions,
   map: map,
   takeUntil: takeUntil,
-  without: without
+  without: without,
+  assertEqual: assertEqual,
+  countOnly: countOnly,
+  assertObjectsEqual: assertObjectsEqual
 };
