@@ -16,19 +16,19 @@ const countOnly = require('./countOnly');
 
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  eqArrays: eqArrays,
-  eqObjects: eqObjects,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  flatten: flatten,
-  letterPositions: letterPositions,
-  map: map,
-  takeUntil: takeUntil,
-  without: without,
-  assertEqual: assertEqual,
-  countOnly: countOnly,
-  assertObjectsEqual: assertObjectsEqual
+  head,
+  tail,
+  middle,
+  eqArrays,
+  eqObjects,
+  findKey,
+  findKeyByValue,
+  flatten,
+  letterPositions,
+  map,
+  takeUntil,
+  without,
+  assertEqual,
+  countOnly,
+  assertObjectsEqual
 };

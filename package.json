@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "ryanc337/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A student project which creates a mini-lodash clone Not for Professional use!",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "text"
